@@ -150,7 +150,7 @@ while (n < tope_rango):
 
 # In[56]:
 
-
+tope_rango = 30
 ciclos_sin_break = 0
 n = 0
 primo = True
@@ -169,7 +169,7 @@ print('Cantidad de ciclos: ' + str(ciclos_sin_break))
 
 # In[57]:
 
-
+tope_rango = 30
 ciclos_con_break = 0
 n = 0
 primo = True

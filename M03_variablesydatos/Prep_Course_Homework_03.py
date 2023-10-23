@@ -6,7 +6,8 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
+x=3
+print(x)
 
 
 
@@ -14,14 +15,14 @@
 
 # In[3]:
 
-
+print(type(8.5))
 
 
 
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
-
+print(type(x))
 
 
 
@@ -30,13 +31,13 @@
 
 # In[2]:
 
-
+y='Rafael'
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
+z=8j
 
 
 
@@ -45,7 +46,7 @@
 
 # In[4]:
 
-
+type(z)
 
 
 
@@ -57,18 +58,21 @@
 pi = 3.1416
 
 
+
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
 
-
+l= True
+m=True
 
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+print(type(l))
+print(type(m))
 
 
 
@@ -76,7 +80,7 @@ pi = 3.1416
 # 10) Asignar a una variable, la suma de un número entero y otro decimal
 
 # In[1]:
-
+k=3+3.5
 
 
 
@@ -85,13 +89,14 @@ pi = 3.1416
 
 # In[2]:
 
-
+5j+6j
 
 
 
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
+8+5j
 
 
 
@@ -100,6 +105,7 @@ pi = 3.1416
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
+8*8
 
 
 
@@ -108,22 +114,22 @@ pi = 3.1416
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
-
-
+2**8
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+d=27 / 4
+print(d)
 
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
-
+int(d)
 
 
 
@@ -131,7 +137,7 @@ pi = 3.1416
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
-
+27 % 4
 
 
 
@@ -140,14 +146,15 @@ pi = 3.1416
 
 # In[2]:
 
-
-
+int(d)*4 + 27%4 
 
 
 # 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
 
 # In[3]:
-
+x = 'hh'
+y = '22'
+x+y
 
 
 
@@ -155,7 +162,7 @@ pi = 3.1416
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
-
+2=='2'
 
 
 
@@ -164,7 +171,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2 == int('2')
 
 
 
@@ -172,14 +179,15 @@ pi = 3.1416
 
 # In[12]:
 
+a = float('3.8')
 
-
-
+#POrque está configurado el punto y no la coma para representar números flotantes
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
-
+b=3
+b-=1
 
 
 
@@ -188,22 +196,25 @@ pi = 3.1416
 
 # In[29]:
 
-
+1 << 2
+# 1 es igual a 0001 en binario y con la operaciòn 1<<2 queda 0100 que es 4. En el sistema de numeración binario los números se representan con ceros y unos
 
 
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
+2+'2'
 
 
-
-
+#porque los 2 y '2' son de diferente tipo. Si los operandos  son del mismo tipo los resultados pueden ser diferentes 2+2 es cuatro pero '2'+'2' es '22'
 
 
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
 
+2 + int('2')
 
 
+# %%
