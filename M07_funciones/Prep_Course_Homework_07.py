@@ -35,7 +35,7 @@ def devuelveprimos(lista):
 
 # In[33]:
 
-def devulvemasrepetido(lista):
+def devuelvemasrepetido(lista):
     cuentarep = []
     cuentarep2= []
     for i,e in enumerate(lista):
